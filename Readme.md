@@ -3,6 +3,16 @@
 <p>dises Programm soll die beste Path finden, um von grüne Punkt bis zu schwarze Punkt anzukommen!!</p>
 <p>jedes mal werden die Hindernisse "Rote Square" random verteilt!!</p>
 
-<h2><strong style="color:red;">ist noch nicht vollständig, da noch das Problem Knoten bzw. Möglichkeiten  zu evaluieren noch nicht vollständig gelöst ist : )
+<p>V1 : Breadth First Search</p> 
+    in zwei formen iterativ und rekursiv <br>
+    
+    1. chlidern bzw. mögliche Paths von start Position finden durch die methode <code>possibleChildern()</code> diese methode gebt ein array mit allem verfügbare Childern
+
+    2. add Childern zu queue
+
+    3. wiederhole dieses vorgang für childern aus queue 
+    
+
 <br>
-Daher könnte man das Spielbaum nicht pruning</strong></h2>
+<br>
+<p>V2 : noch nicht fertig</p> 

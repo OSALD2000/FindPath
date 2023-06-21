@@ -5,21 +5,7 @@ const BREITE = 75;
 const game = new GameBoard();
 game.creatHindernise();
 game.setPlayer();
-game.setZiel();
+game.setZiel(210);
 game.draw(ctx);
 
-currentNode = createTree(game.felder[0], game);
-counter = 1;
-while(true){
-while (currentNode.childern[0]) {
-    currentNode.value.player=true;
-    currentNode=currentNode.childern[0];
-}
-
-game.draw(ctx);
-if(currentNode.value.zielFeld){break;}
-if(counter > 10){break;}
-counter++;
-currentNode = createTree(currentNode, game);
-
-}
+BFS(game, game.felder[0], game.felder[210]);
