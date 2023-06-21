@@ -7,3 +7,12 @@ body{
     border: 1px black solid;
     margin-top: 50px;
 }
+label{
+    color: red;
+    font-size: 40px;
+}
+input{
+    height: 30px;
+    width: 240px;
+    font-size: 40px;
+}

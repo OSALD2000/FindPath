@@ -28,9 +28,8 @@ function BFS(maze, start, end){
    if(currentNode == end ){
         while(true){
             if(currentNode==start){break;}
-            currentNode.player = true;
             currentNode= currentNode.parent;
-
+            currentNode.player = true;
         }
    }
    game.draw(ctx);
