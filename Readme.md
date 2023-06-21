@@ -5,11 +5,11 @@
 
 <p>V1 : Breadth First Search</p> 
     in zwei formen iterativ und rekursiv <br>
-    
+    <br>
     1. chlidern bzw. mögliche Paths von start Position finden durch die methode <code>possibleChildern()</code> diese methode gebt ein array mit allem verfügbare Childern
-
+    <br>    
     2. add Childern zu queue
-
+    <br>
     3. wiederhole dieses vorgang für childern aus queue 
     
 
