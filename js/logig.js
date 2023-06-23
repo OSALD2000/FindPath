@@ -1,5 +1,5 @@
 function bucktSort(array,  reserve){
-    let buckts = Array.from({length: 15}, (_, i) => new Buckt(i));
+    let buckts = Array.from({length: 45}, (_, i) => new Buckt(i));
     array.forEach(feld => buckts[feld.y].bucktArr.push(feld));
 
     if(reserve){buckts.forEach(buckt => buckt.bucktArr.sort((a,b) => b.x - a.x));}

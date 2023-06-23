@@ -65,7 +65,7 @@ function possibleChildern(currentX, currentY, game){
         }
     })
    
-    possibleSquer = possibleSquer.map(squer =>game.felder[((currentY+squer.y)*15)+(currentX+squer.x)]);
+    possibleSquer = possibleSquer.map(squer =>game.felder[((currentY+squer.y)*45)+(currentX+squer.x)]);
     possibleSquer = possibleSquer.filter(squer => squer && !squer.hinderis);
 
     return possibleSquer;
@@ -73,7 +73,7 @@ function possibleChildern(currentX, currentY, game){
 
 
 function valideIndex(currentX, currentY,  move){
-    if(currentX+move.x < 0 || currentX+move.x >= 15) return false;
-    else if(currentY+move.y < 0 || currentY+move.y >= 15) return false;
+    if(currentX+move.x < 0 || currentX+move.x >= 45) return false;
+    else if(currentY+move.y < 0 || currentY+move.y >= 45) return false;
     return true;
 }

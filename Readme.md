@@ -1,6 +1,6 @@
 <h1>Find the best Path</h1>
 <img src="bilder/Screenshot%202023-06-19%20162108.png" alt="gamePlay" width="275"  height="275"/>
-<p>dises Programm soll die beste Path finden, um von grüne Punkt bis zu schwarze Punkt anzukommen!!</p>
+<p>dises Programm soll die Path finden, um von grüne Punkt bis zu schwarze Punkt anzukommen!!</p>
 <p>jedes mal werden die Hindernisse "Rote Square" random verteilt!!</p>
 
 <p>V1 : Breadth First Search</p> 
